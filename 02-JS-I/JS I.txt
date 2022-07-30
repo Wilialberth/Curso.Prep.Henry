@@ -1,0 +1,30 @@
+1. Variables: Es una manera de almacenar datos (valor) que podemos usar luego.
+
+Podemos declarar tres formas de variables:
+
+- var: su scope es global
+- let: similar a var pero difiere al crear un scope. 
+	No admite redeclaracoón ni redefinición.
+- const: es una variable que no puede cambiarse.
+	No admite redeclaración.
+	Admite redeficiones en sus componentes internos.
+
+
+
+- String: son bloques de textos. 
+	Se definen siempre entre comillas.
+
+- Funciones: Son instrucciones que se agrupan para realizar una tarea concreta que luego puede puede ser reutilizada en difrentes instancias del código.
+	Palabra reserbvada function.
+	Podemos pasarle argumentos --> van dentro de ()
+	Podemos hacer uso del return, es la única forma de que los datos escapen de una function.
+
+- Declaraciones --> if
+	Es un condicional el cual funciona para verificar que algo sea true.
+	if (condición){
+		return (true)
+	}
+
+- Valores booleanos (true, false) son "códigos" que se usan para obtener una respuesta u otra, true falsa 
+ o 4, sí o no.
+ 
