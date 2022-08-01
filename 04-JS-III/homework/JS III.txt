@@ -1,0 +1,5 @@
+Array: []
+- Es un objeto que almacena una lista de elementos.
+- Puede ser un conjunto de números, strings, booleanos, objetos o hasta una lista de listas.
+- Los valores del array pueden ser distintos y es posible agregar o quitar elementos en todo momento.
+- Los elementos del array tienen un orden, desde 0 hasta el último elemento [0, 1,.., n+1]
