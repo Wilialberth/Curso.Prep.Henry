@@ -1,0 +1,22 @@
+- Objetos {} : Colección de datos relacionados con funcionalidad.
+		Generalmente consta de variables denominadas propiedades y funciones asociadas llamadas métodos.
+		Usamos obejtos cuando hay que crrar un elemento cuya información rstá conspuesta por más de un valor y existen operaciones comunes (funciones) para todos los elementos de este tipo y sus propiedades.
+		Usan Key:Value donde Key es el identificador y value es el valor que queremos guardar en esa key.
+
+* Propiedades:
+
+	a) Acceder a valores: podemos hacerlo usando puntos o corchetes.
+		a.1) Usando puntos: Llamamos al nombre del objeto, un punto y el nomobre de la clave: Ej: user.username // Juan.perez
+
+		a.2) Usando corchetes: Usamos una cadena o número o una variable que apunet a una cadena o númerdo.
+			Se puede llamar a cada clave envolviéndola en comillas. Ej:
+		const passString = 'password'
+		user ['username'] // juan.perez
+
+* Métodos: Son las funciones guardadas en un objeto.
+		Podemos llamar a un método con argumentos como lo hariamos con una función normal.
+
+- Bucle for...in
+	Los usamos para iterar sobre cada par objeto-valor.
+	Lo declaramos (variable in nombre del objeto) y se recorrerá cada clave del objeto y finalizará cuando se hayan iteraro todas las claves.
+	
