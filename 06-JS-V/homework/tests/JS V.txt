@@ -1,0 +1,12 @@
+- Prototype: Las clases tienen una única forma de establecer un método una vez y dar acceso a cada objeto de esa clase a esos metodos.
+	Los métodos del prototype tienen acceso a la palabra clave this.
+	
+   Métodos:
+		Object.create: nos permita crear un nuevo objeto a partir de un prototype específicado.
+		Object.assign: permite agregar propiedades a un objeto pasado por parámetro.
+
+
+- Constructors (de Clases): El método constructor es un metodo especial para crear e inicializar un objeto creado a partir de una clase.
+	Sintaxis constructor([argumentos]) { ... }
+	Sólo puede haber un método especial con el nombre de "constructor" en una clase.
+	
