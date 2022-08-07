@@ -1,0 +1,8 @@
+Funciones callbacks:
+
+- Callbacks (cb): es la capacidad de pasar una función como argumento a otra función.
+
+Podemos usar:
+		- .forEach: es un bucle for integrado en cada array, toma un callback como argumento, itera sobre cada elemento de la matriz y llama al cb en él.
+		- .reduce: ejecuta un bucle con la intención de reducir cada elemento en un elemento que devuelve. Acepta un cb que toma dos parametros "acc" y el segundo es el elemento en el que se encuentra actualmente.
+		- .map: lo usamos cuando queremos cambiar cada elemento de una matriz de la misma manera.
